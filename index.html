@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Event Handling & Interactive Elements Assignment</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Event Buttons -->
+  <button id="clickBtn">Click Me!</button><br>
+  <button id="hoverBtn">Hover Over Me!</button> <br>
+  <input type="text" id="keypressField" placeholder="Type something..." />
+<br>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img src="images/image3.jpeg" alt="Pic 1" class="slide" width="300px" height="400px"/>
+    <img src="images/image5.jpeg" alt="Pic 2" class="slide" width="300px" height="400px"/>
+    <img src="images/image2.jpeg" alt="Pic 3" class="slide" width="300px" height="400px"/>
+    <button id="nextSlide">Next</button>
+  </div>
+<br>
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tabBtn" data-tab="1">Tab 1</button><br><br>
+    <button class="tabBtn" data-tab="2">Tab 2</button>
+    <div class="tabContent" id="tab1">We are trying out tabs, want to confirm JavaScript</div>
+    <div class="tabContent" id="tab2">My guy this is the second confirmation</div>
+  </div>
+ <br><br>
+ <!-- Form -->
+ <form id="signupForm">
+    <input type="email" id="email" placeholder="Email" required />
+    <br>
+    <input type="text" id="username" placeholder="Username" required />
+    <br>
+    <input type="password" id="password" placeholder="Password" required />
+    <br>
+    <button type="submit">Sign Up</button>
+    <p id="formMsg"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
